@@ -1,0 +1,11 @@
+.nomPortrait{
+  margin: 2rem 0 0.5rem 0;
+}
+
+.testimonial-item img {
+  transition: 0.2s;
+}
+
+.testimonial-item img:hover {
+  -webkit-transform: scale(1.05);
+}

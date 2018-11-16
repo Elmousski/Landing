@@ -1,0 +1,14 @@
+.showcase {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.showcase img {
+  max-width: 640px;
+  height: 500px;
+  transition: 1s;
+}
+
+.showcase img:hover {
+  -webkit-transform: scale(1.05);
+}

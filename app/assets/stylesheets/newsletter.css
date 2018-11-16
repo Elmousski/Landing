@@ -1,0 +1,68 @@
+/* formulaire email */
+#mc_embed_signup {
+  clear:left; 
+  width: 150px;
+  padding: 5px 0 2.5px 0;
+}
+
+
+#mc-embedded-subscribe-form input[type=checkbox] {
+  display: inline; 
+  width: 1000px;
+  margin-right: 1000px;
+}
+
+#mergeRow-gdpr {
+  margin-top: 50px;
+}
+
+#mergeRow-gdpr fieldset label {
+  font-weight: normal;
+}
+
+#mc-embedded-subscribe-form .mc_fieldset {
+  border:none;
+  min-height: 0px;
+  padding-bottom:0px;
+}
+
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  margin-top: 50px;
+  padding: 10px 22px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: white; 
+  color:#204060;
+  outline: 3px solid black;
+  box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.email {
+  width: 400px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.email:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3) inset;
+  border-radius: 4px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightblue;
+  font-style: 'Overpass Mono', monospace;
+}

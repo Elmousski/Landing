@@ -1,0 +1,9 @@
+
+.badge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-badge {
+  padding-bottom: 5px;
+}

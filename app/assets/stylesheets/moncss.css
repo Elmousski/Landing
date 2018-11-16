@@ -1,0 +1,38 @@
+* {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+  font-size: 16px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.mb-5 {
+  font-family: 'Overpass Mono', monospace;
+}
+
+.mainImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #204060;
+  height: 50%;
+  width: 100%;
+  top: 20;
+  left: 0;
+  opacity: 1;
+}
+
+#title-page {
+  transition: 1s;
+}
+
+#title-page:hover {
+  -webkit-transform: scale(1.3);
+}
+
